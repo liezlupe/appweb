@@ -3542,3 +3542,12 @@ h2.typoh2{
 	&:last-child { margin-right: 0; }
 	
 }
+
+.column-head {
+	flex: 1;
+	border: 1px solid rgba(255, 254, 254, 0);
+	margin: 2px;
+	padding: 0px;
+	
+	
+}
