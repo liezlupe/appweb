@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	font-family: 'Roboto', sans-serif; 
-	background:#071f44;
+	background:#071f4400;
 } 
 body a,input[type="submit"],.wthree_services_left1,.w3agile_banner_btom_login_left3 a,.agile_gallery_grid_w3 img,.agile_gallery_grid_left img{
 	transition:.5s ease-in;
