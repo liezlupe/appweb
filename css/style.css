@@ -3543,11 +3543,29 @@ h2.typoh2{
 	
 }
 
-.column-head {
-	flex: 1;
-	border: 1px solid rgba(255, 254, 254, 0);
-	margin: 2px;
-	padding: 0px;
-	
-	
+.rows{
+	padding-top:50px;
 }
+
+.row img{
+	float: right;
+	margin-right: 102px;
+	margin-top: 6px;
+}
+/* icon css
+
+.ico-redem{
+	background-image: url('../images/myplay/ico_redeem.png');
+	background-size: 100%;	
+}
+
+.ico-log{
+	background-image: url('../images/myplay/ico_log.png');
+	background-size: 100%;	
+}
+
+.ico-clock{
+	background-image: url('../images/myplay/ico_clock.png');
+	background-size: 100%;	
+
+} */
