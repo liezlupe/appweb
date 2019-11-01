@@ -434,7 +434,7 @@ button#trigger-overlay i {
 .agileits-login input[type="text"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
     outline: none;
     font-size: 1em;
-    color: #000;
+    color: #fff;
     padding: 10px;
     letter-spacing: 1px;
     margin: 0;
@@ -451,7 +451,7 @@ button#trigger-overlay i {
 	margin-bottom:0!important;
 }
 .login-top h5 {
-    color: #212121;
+    color: #fff;
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
@@ -596,6 +596,15 @@ input.checkbox:checked:after {
 } 
 .modal-header {
     border-bottom: none;
+}
+.modal-content{
+	background-image: url('../images/myplay/frame_redeem.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	background-color: #fff0;
+}
+.modal-body{
+	padding: 0px;
 }
 /*--//login-register--*/
 /*--Options--*/
@@ -1508,7 +1517,7 @@ a.blog-more-agile:hover {
 .form-agileits input[type="text"], .form-agileits input[type="email"], select.form-control {
     width: 49%;
     float: left;
-    color: #000;
+    color: #fff;
     outline: none;
     font-size: 14px;
     padding: 10px 10px;
@@ -1610,7 +1619,7 @@ option {
 /*--placeholder-color--*/
 
 ::-webkit-input-placeholder{
-	color:#000!important;
+	color:#fff!important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
@@ -2787,7 +2796,7 @@ h2.typoh2{
 		margin-bottom: 1.4em;
 	}
 	.login-top h5 {
-		font-size: 23px;
+		font-size: 18px;
 	}
 	.agileits-login {
 		padding: 1em 2em;
@@ -2902,7 +2911,10 @@ h2.typoh2{
 		width: 49.1%;
 	}
 	.agileinfo_footer_bottom_grid {
-		margin-bottom: 1.7em;
+		margin-bottom: -1em;
+		font-size: 9px;
+		color: #563390;
+	
 	}
 	.blog-info-w3layouts {
 		padding: 2em;
@@ -3277,6 +3289,8 @@ h2.typoh2{
 	.agileits-login input[type="submit"] {
 		font-size: 14px;
 		padding: .6em 4em;
+		border-radius: 12px;
+		background-color: #85cb0b;
 	}
 	.header-w3ls {
 		padding: 10px 20px 10px 10px;
@@ -3317,11 +3331,11 @@ h2.typoh2{
 		padding: 4.5em 4em;
 	}
 	.login-top h5 {
-		font-size: 21px;
+		font-size: 18px;
 	}
 	.modal-dialog {
 		width: 95%;
-		margin: 3em auto 0;
+		margin: 15em auto 0;
 	}
 	.w3ls-location a {
 		margin: 74px 0px 0 106px;
@@ -3537,10 +3551,10 @@ h2.typoh2{
 	flex: 1;
 	border: 1px solid rgba(255, 254, 254, 0);
 	margin: 2px;
-	padding: 0px;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
 	
+}
+.column-btn{
+	padding-top: 60px;
 }
 
 .rows{
@@ -3552,20 +3566,58 @@ h2.typoh2{
 	margin-right: 102px;
 	margin-top: 6px;
 }
-/* icon css
 
-.ico-redem{
-	background-image: url('../images/myplay/ico_redeem.png');
-	background-size: 100%;	
+.btn {
+	background-color: #85cb0b;
+	border: none;
+	color: white;
+	padding: 4px 10px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 9px;
+  }
+.btn:hover {
+	background-color: RoyalBlue;
+  }
+
+.btn-head {
+	background-color: #85cb0b00;
+	border: none;
+	color: #673ab7;
+	padding: 4px 34px;
+	font-size: 16px;
+	cursor: pointer;
 }
+.btn-clock {
+	background-color: #85cb0b00;
+	border: none;
+	color: #960000;
+	padding: 4px 34px;
+	font-size: 16px;
+	cursor: pointer;
+  }
 
-.ico-log{
-	background-image: url('../images/myplay/ico_log.png');
-	background-size: 100%;	
+.ico_redeem {
+	height: 32px;
+	padding-left: 31px;
+	padding-right: 0px;
+	background: #ff990000 url("../images/myplay/ico_redeem.png") no-repeat 2px center;
+	cursor: pointer;
+	background-size: contain;
 }
-
-.ico-clock{
-	background-image: url('../images/myplay/ico_clock.png');
-	background-size: 100%;	
-
-} */
+.ico_log {
+	height: 32px;
+	padding-left: 31px;
+	padding-right: 0px;
+	background: #ff990000 url("../images/myplay/ico_log.png") no-repeat 2px center;
+	cursor: pointer;
+	background-size: contain;
+}
+.ico_clock {
+	height: 32px;
+	padding-left: 31px;
+	padding-right: 0px;
+	background: #ff990000 url("../images/myplay/ico_clock.png") no-repeat 2px center;
+	cursor: pointer;
+	background-size: contain;
+}
