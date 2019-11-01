@@ -36,6 +36,11 @@ body a:hover{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+.bg2 {
+	background-image: url('../images/myplay/bg_white.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 .index-bg {
     background: #071f4400!important;
 }
@@ -2353,7 +2358,12 @@ section#tables  p {
 	background-color: #ffffff;
 }
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-	padding: 15px!important;
+	padding: 14px!important;
+}
+
+td{	
+    text-align: center;
+
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	font-size: 0.9em;
