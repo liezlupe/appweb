@@ -3601,7 +3601,13 @@ h2.typoh2{
 	padding: 4px 34px;
 	font-size: 16px;
 	cursor: pointer;
-  } 
+  } 	
+
+.little-p {
+	font-size: 12px;
+    padding-top: 43px;
+    font-weight: normal;
+}
 
 .ico_redeem {
 	height: 32px;
