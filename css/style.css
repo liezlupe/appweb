@@ -2463,7 +2463,7 @@ h2.typoh2{
 		font-size: 53%;
 	}
 	.alert,p {
-		font-size: 14px;
+		font-size: 17px;
 		color: #fff;
 		font-weight: bold;
 	}
@@ -3592,6 +3592,7 @@ h2.typoh2{
 	padding: 4px 34px;
 	font-size: 16px;
 	cursor: pointer;
+	font-weight: 900;
 }
 .btn-clock {
 	background-color: #85cb0b00;
@@ -3600,7 +3601,7 @@ h2.typoh2{
 	padding: 4px 34px;
 	font-size: 16px;
 	cursor: pointer;
-  }
+  } 
 
 .ico_redeem {
 	height: 32px;
